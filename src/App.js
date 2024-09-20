@@ -11,8 +11,14 @@ import "./App.css";
 
 // Initialize Firebase
 const firebaseConfig = {
-    // YOUR FIREBASE CONFIG HERE
-};
+    apiKey: "AIzaSyAFwxz_LlUYMA4g3q0ucXBWIv6Hhqr7yXw",
+    authDomain: "simple-currency-converte-6e98d.firebaseapp.com",
+    projectId: "simple-currency-converte-6e98d",
+    storageBucket: "simple-currency-converte-6e98d.appspot.com",
+    messagingSenderId: "603085476950",
+    appId: "1:603085476950:web:8b767faf5e24b89a1797f7",
+    measurementId: "G-VXK02NG2J7"
+  };
 
 if (!firebase.apps.length) {
     firebase.initializeApp(firebaseConfig);
