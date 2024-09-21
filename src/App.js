@@ -8,6 +8,7 @@ import { ReactComponent as MoreIcon } from "./icons/more-vertical.svg";
 import { ReactComponent as CopyIcon } from "./icons/copy.svg";
 
 import "./App.css";
+import Header from "./components/Header";
 
 // Initialize Firebase
 const firebaseConfig = {
@@ -47,6 +48,7 @@ function App() {
 
     return (
         <div className="app">
+            <Header />
             {currentPage === "home" ? (
                 <Menu
                     joinCode={joinCode}
