@@ -48,6 +48,25 @@
 
 }
 
-@media screen {
-  
+@media screen and (max-width: 600px) {
+  .Navigation-bar{
+    float: none;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+  }
+  .List-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .App-name{
+    width: auto;
+  }
 }
